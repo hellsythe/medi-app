@@ -3221,12 +3221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sdkconsultoria/base.git",
-                "reference": "6854084d962ba254ec4698c06100efb024036d34"
+                "reference": "093d9bbd5a185c77d1443df8a3299a9d3b3ba776"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sdkconsultoria/base/zipball/6854084d962ba254ec4698c06100efb024036d34",
-                "reference": "6854084d962ba254ec4698c06100efb024036d34",
+                "url": "https://api.github.com/repos/sdkconsultoria/base/zipball/093d9bbd5a185c77d1443df8a3299a9d3b3ba776",
+                "reference": "093d9bbd5a185c77d1443df8a3299a9d3b3ba776",
                 "shasum": ""
             },
             "require": {
@@ -3281,7 +3281,7 @@
                 "issues": "https://github.com/sdkconsultoria/base/issues",
                 "source": "https://github.com/sdkconsultoria/base/tree/develop"
             },
-            "time": "2022-07-09T22:57:26+00:00"
+            "time": "2022-07-16T17:53:36+00:00"
         },
         {
             "name": "sdkconsultoria/core",
