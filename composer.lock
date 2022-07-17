@@ -1576,16 +1576,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "0da1dca5781dd3cfddbe328224d9a7a62571addc"
+                "reference": "155ec1c95626b16fda0889cf15904d24890a60d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/0da1dca5781dd3cfddbe328224d9a7a62571addc",
-                "reference": "0da1dca5781dd3cfddbe328224d9a7a62571addc",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/155ec1c95626b16fda0889cf15904d24890a60d5",
+                "reference": "155ec1c95626b16fda0889cf15904d24890a60d5",
                 "shasum": ""
             },
             "require": {
@@ -1678,7 +1678,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-07T21:28:26+00:00"
+            "time": "2022-07-17T16:25:47+00:00"
         },
         {
             "name": "league/config",
@@ -3221,12 +3221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sdkconsultoria/base.git",
-                "reference": "093d9bbd5a185c77d1443df8a3299a9d3b3ba776"
+                "reference": "45faf755b7910c67da0b09f04d3ecd788f16a2d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sdkconsultoria/base/zipball/093d9bbd5a185c77d1443df8a3299a9d3b3ba776",
-                "reference": "093d9bbd5a185c77d1443df8a3299a9d3b3ba776",
+                "url": "https://api.github.com/repos/sdkconsultoria/base/zipball/45faf755b7910c67da0b09f04d3ecd788f16a2d8",
+                "reference": "45faf755b7910c67da0b09f04d3ecd788f16a2d8",
                 "shasum": ""
             },
             "require": {
@@ -3281,7 +3281,7 @@
                 "issues": "https://github.com/sdkconsultoria/base/issues",
                 "source": "https://github.com/sdkconsultoria/base/tree/develop"
             },
-            "time": "2022-07-16T17:53:36+00:00"
+            "time": "2022-07-17T19:20:15+00:00"
         },
         {
             "name": "sdkconsultoria/core",
@@ -3289,12 +3289,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sdkconsultoria/core.git",
-                "reference": "4309dccacf4c1db1c69d54cd4b7b540580c0aba1"
+                "reference": "768bb6ec414c5f5ac6ecc18e3d8c99257e2c369d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sdkconsultoria/core/zipball/4309dccacf4c1db1c69d54cd4b7b540580c0aba1",
-                "reference": "4309dccacf4c1db1c69d54cd4b7b540580c0aba1",
+                "url": "https://api.github.com/repos/sdkconsultoria/core/zipball/768bb6ec414c5f5ac6ecc18e3d8c99257e2c369d",
+                "reference": "768bb6ec414c5f5ac6ecc18e3d8c99257e2c369d",
                 "shasum": ""
             },
             "require": {
@@ -3347,7 +3347,7 @@
                 "issues": "https://github.com/sdkconsultoria/core/issues",
                 "source": "https://github.com/sdkconsultoria/core/tree/develop"
             },
-            "time": "2022-07-09T20:14:53+00:00"
+            "time": "2022-07-17T14:37:15+00:00"
         },
         {
             "name": "spatie/laravel-permission",
