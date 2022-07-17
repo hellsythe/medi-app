@@ -18,5 +18,10 @@ Route::get('/', function () {
 });
 
 Route::namespace('\App\Http\Controllers\Admin')
-->prefix('admin')->group(function () {
+->prefix('admin')->group(function () { 
+    Route::SdkResource('organization', OrganizationController::class); 
+    Route::SdkResource('clinic', ClinicController::class);
+    Route::SdkResource('coctor-office', DoctorOffice::class);
+    Route::SdkResource('patient', PatientController::class);
+    Route::SdkResource('consultation', ConsultationController::class);
 });

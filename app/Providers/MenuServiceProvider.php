@@ -4,6 +4,10 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Sdkconsultoria\Base\Services\MenuService;
+use App\Models\Organization;
+use App\Models\Clinic;
+use App\Models\Consultation;
+use App\Models\Patient;
 
 class MenuServiceProvider extends ServiceProvider
 {
@@ -24,5 +28,9 @@ class MenuServiceProvider extends ServiceProvider
     public function boot()
     {
         $service_menu = app(MenuService::class);
+        $service_menu->addElement(Organization::makeMenu('information-circle'));
+        $service_menu->addElement(Clinic::makeMenu('office-building'));
+        $service_menu->addElement(Patient::makeMenu('user-group'));
+        $service_menu->addElement(Consultation::makeMenu('support'));
     }
 }
